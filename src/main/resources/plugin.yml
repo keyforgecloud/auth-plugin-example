@@ -1,6 +1,6 @@
-name: Paper-Kotlin-Template
+name: Keyforge-auth
 version: 1.0.0
-main: gg.flyte.template.PluginTemplate
+main: gg.flyte.keyforge.PluginTemplate
 api-version: '1.20'
 authors: [ The Flyte Team ]
 description: Paper Plugin Template written in Kotlin.

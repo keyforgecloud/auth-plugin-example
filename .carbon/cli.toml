@@ -1,0 +1,8 @@
+url = "https://panel.flyte.gg"
+
+[server]
+id = "d0daf8fd"
+
+[deploy]
+file = "./build/libs/keyforge-auth-1.0.1-dev-all.jar"
+directory = "plugins"

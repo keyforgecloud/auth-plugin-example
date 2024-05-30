@@ -16,19 +16,21 @@ repositories {
 }
 
 dependencies {
-    paperweight.paperDevBundle("1.20.2-R0.1-SNAPSHOT")
+    paperweight.paperDevBundle("1.20.4-R0.1-SNAPSHOT")
 
     implementation(libs.twilight)
+//    implementation(libs.keyforge)
     implementation(libs.paperlib)
+
+    implementation("cloud.keyforge:keyforge:0.0.4")
 
     implementation(libs.lamp.common)
     implementation(libs.lamp.bukkit)
-    implementation(libs.lamp.brigadier)
 }
 
 tasks {
     build { dependsOn(shadowJar) }
-    runServer { minecraftVersion("1.20.2") }
+    runServer { minecraftVersion("1.20.4") }
     compileKotlin { kotlinOptions.jvmTarget = "17" }
 
     shadowJar {

@@ -1,1 +1,1 @@
-rootProject.name = "Paper-Kotlin-Template"
+rootProject.name = "keyforge-auth"
